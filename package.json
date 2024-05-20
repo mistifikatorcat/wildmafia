@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "nuxt dev": "npm run dev",
+    "nuxt build": "npm run build",
+    "nuxt start": "npm run start",
+    "lint": "nuxt lint"
   },
   "author": "",
   "license": "ISC"
